@@ -1,0 +1,40 @@
+POST /api/adwords/cm/v201809/CampaignService HTTP/1.1
+Host: adwords.google.com
+Accept: application/soap+xml, application/dime, multipart/related, text/*
+Authorization: Bearer ya29.Gly3BleYcczHP3zPbG7aoe443YsuVWQbx9c0eI3HNYvf2nTlexjOkvUC2-crxh7A6sQVBYKX4wBnZPvpMhB0RU1hwO2Ed--vijyxrvacEhRXT_pgCnfXu6-t1-3uYA
+Cache-Control: no-cache
+Cloudfront-Forwarded-Proto: https
+Cloudfront-Is-Desktop-Viewer: true
+Cloudfront-Is-Mobile-Viewer: false
+Cloudfront-Is-Smarttv-Viewer: false
+Cloudfront-Is-Tablet-Viewer: false
+Cloudfront-Viewer-Country: RU
+Connect-Time: 1
+Connection: close
+Content-Length: 1078
+Content-Type: text/xml; charset=utf-8
+Pragma: no-cache
+Soapaction: ""
+Total-Route-Time: 0
+User-Agent: Axis/1.4
+Via: 1.0 8b5bc0831e6dab612582614c3009efa7.cloudfront.net (CloudFront), 1.1 vegur
+X-Amz-Cf-Id: soE2NmJb1BugovrVSNFewPR6YhJ6kVwC2rMC6cI9n0Lq4QMOY62t9A==
+X-Request-Id: 664adb18-d828-4f92-a9f9-3721b1bccf43
+cache-control: no-cache
+Expect: 100-continue
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Date: Thu, 21 Feb 2019 13:20:25 GMT
+Expires: Thu, 21 Feb 2019 13:20:25 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: quic=":443"; ma=2592000; v="44,43,39"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Connection: close
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Header><ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201809"><requestId>000582675654cb7c02ab405ba40c98a7</requestId><serviceName>CampaignService</serviceName><methodName>get</methodName><operations>1</operations><responseTime>210</responseTime></ResponseHeader></soap:Header><soap:Body><getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201809"><rval><totalNumEntries>1</totalNumEntries><Page.Type>CampaignPage</Page.Type><entries><id>1710756372</id><name>Продажи – Поисковая – 1</name><budget></budget></entries></rval></getResponse></soap:Body></soap:Envelope>

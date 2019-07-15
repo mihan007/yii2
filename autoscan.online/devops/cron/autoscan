@@ -1,0 +1,9 @@
+# Autoscan routines
+
+MAILTO="mihan007+autoscan@ya.ru"
+PATH=/usr/lib/sysstat:/usr/sbin:/usr/sbin:/usr/bin:/sbin:/bin
+
+0 2 * * * www-data cd /var/www/test.autoscan.online && ./yii autoplius/actualization
+30 2 * * * www-data cd /var/www/test.autoscan.online && ./yii ss/actualization
+0 3 * * * www-data cd /var/www/test.autoscan.online && ./yii auto24/actualization
+5 3 * * * www-data /bin/sh /var/www/test.autoscan.online/devops/scripts/cleaner.sh
